@@ -3,9 +3,12 @@ body {
   margin: 0;
 }
 h1 {
+  font-size: 50px;
+}
+h2 {
   font-size: 40px;
 }
-.dev-name {
+.color-orange {
   color: orange;
 }
 .top-banner {
@@ -31,7 +34,7 @@ h1 {
   color: antiquewhite;
   font-weight: 700;
 }
-.dream-big {
+.flexible-container {
   display: flex;
 }
 .dream-banner img {
@@ -41,4 +44,22 @@ h1 {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-item {
+  width: 40%;
+  margin: 0 5%;
+  box-shadow: 10px 10px 40px #a9a9a9;
+  padding: 2%;
+}
+.full-stack-web-developer {
+  border-left: 10px solid tomato;
+}
+.baby-web-developer {
+  border-left: 10px solid rgb(26, 26, 227);
 }
